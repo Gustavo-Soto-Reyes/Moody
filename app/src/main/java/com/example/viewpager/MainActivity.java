@@ -41,7 +41,16 @@ public class MainActivity extends AppCompatActivity {
                 new TabLayoutMediator.TabConfigurationStrategy() {
                     @Override
                     public void onConfigureTab(@NonNull TabLayout.Tab tab, int position) {
-                        tab.setText("Fragment " + (position +1));
+                        if (position == 0){
+                            tab.setText("Sad");
+                        } else if (position == 1) {
+                            tab.setText("Meh");
+                        } else if (position == 2) {
+                            tab.setText("Yay");
+                        } else {
+                            tab.setText("What");
+                        }
+
                     }
                 }
         ).attach();

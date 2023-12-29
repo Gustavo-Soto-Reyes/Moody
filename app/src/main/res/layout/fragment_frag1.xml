@@ -11,7 +11,18 @@
         android:id="@+id/frag1TextView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Fragment Uno"
-        android:textSize="32sp"/>
+        android:text="🙁"
+        android:textSize="160sp"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/frag1Text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Sad"
+        android:layout_marginTop="280dp"
+        android:textSize="80sp"
+        android:gravity="center"
+        />
 
 </FrameLayout>

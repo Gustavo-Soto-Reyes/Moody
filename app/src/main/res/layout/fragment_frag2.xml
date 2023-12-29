@@ -11,7 +11,19 @@
         android:id="@+id/frag2TextView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Fragment Dos"
-        android:textSize="40sp"/>
+        android:text="😐"
+        android:textSize="160sp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/frag2Text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Meh"
+        android:layout_marginTop="280dp"
+        android:textSize="80sp"
+        android:gravity="center"
+        />
 
 </FrameLayout>

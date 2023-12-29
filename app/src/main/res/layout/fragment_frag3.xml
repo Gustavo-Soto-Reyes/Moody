@@ -11,7 +11,19 @@
         android:id="@+id/frag3TextView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Fragment Tres"
-        android:textSize="48sp"/>
+        android:text="🙂"
+        android:textSize="160sp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/frag3Text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Yay"
+        android:layout_marginTop="280dp"
+        android:textSize="80sp"
+        android:gravity="center"
+        />
 
 </FrameLayout>
